@@ -1,0 +1,9 @@
+D:\Projects\TextAnalysisApp\TextAnalysisApp.Specs\bin\Debug\TextAnalysisApp.Specs.dll.config
+D:\Projects\TextAnalysisApp\TextAnalysisApp.Specs\bin\Debug\TextAnalysisApp.Specs.dll
+D:\Projects\TextAnalysisApp\TextAnalysisApp.Specs\bin\Debug\TextAnalysisApp.Specs.pdb
+D:\Projects\TextAnalysisApp\TextAnalysisApp.Specs\bin\Debug\TechTalk.SpecFlow.dll
+D:\Projects\TextAnalysisApp\TextAnalysisApp.Specs\bin\Debug\TextAnalysisApp.exe
+D:\Projects\TextAnalysisApp\TextAnalysisApp.Specs\bin\Debug\TextAnalysisApp.pdb
+D:\Projects\TextAnalysisApp\TextAnalysisApp.Specs\obj\Debug\TextAnalysisApp.Specs.dll
+D:\Projects\TextAnalysisApp\TextAnalysisApp.Specs\obj\Debug\TextAnalysisApp.Specs.pdb
+D:\Projects\TextAnalysisApp\TextAnalysisApp.Specs\obj\Debug\TextAnalysisApp.Specs.csprojResolveAssemblyReference.cache

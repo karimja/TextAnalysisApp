@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="97943541-ed48-44d4-a93a-8b3e5b945ffc" name="javaid@ASUS401PC 2014-08-03 18:52:45" runUser="asus401pc\javaid" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="b92cf444-f7eb-4e1f-9aeb-85510be3271c">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="javaid_ASUS401PC 2014-08-03 18_52_45">
+      <DeploymentItem filename="D:\Projects\TextAnalysisApp\TextAnalysisApp\bin\Debug\TextAnalysisApp.exe" />
+      <DeploymentItem filename="D:\Projects\TextAnalysisApp\packages\SpecFlow.1.9.0\lib\net35\TechTalk.SpecFlow.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-08-03T18:52:45.2679767+01:00" queuing="2014-08-03T18:52:45.7110020+01:00" start="2014-08-03T18:52:45.7770058+01:00" finish="2014-08-03T18:52:46.6310546+01:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="5" executed="5" passed="5" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ReturnExceptionOnNullSenetence" storage="d:\projects\textanalysisapp\textanalysisapp.specs\bin\debug\textanalysisapp.specs.dll" id="410e918b-b1cd-a04f-d92b-e6cf2be6d890">
+      <Description>Return exception on null senetence</Description>
+      <Execution id="92d9bbcd-9d5e-477f-8fbc-f9eb18ced9ab" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>Unqiue Word Count in a sentence</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="D:/Projects/TextAnalysisApp/TextAnalysisApp.Specs/bin/Debug/TextAnalysisApp.Specs.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TextAnalysisApp.Specs.Features.UnqiueWordCountInASentenceFeature, TextAnalysisApp.Specs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ReturnExceptionOnNullSenetence" />
+    </UnitTest>
+    <UnitTest name="ReturnUnqiueWordCountForASentence" storage="d:\projects\textanalysisapp\textanalysisapp.specs\bin\debug\textanalysisapp.specs.dll" id="712f95e0-ea66-58b5-0baa-bc5dfe280b55">
+      <Description>Return unqiue word count for a sentence</Description>
+      <Execution id="9b696cfd-1389-4ae1-930e-ec6cddfedf8d" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>Unqiue Word Count in a sentence</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="D:/Projects/TextAnalysisApp/TextAnalysisApp.Specs/bin/Debug/TextAnalysisApp.Specs.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TextAnalysisApp.Specs.Features.UnqiueWordCountInASentenceFeature, TextAnalysisApp.Specs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ReturnUnqiueWordCountForASentence" />
+    </UnitTest>
+    <UnitTest name="ReturnEmptyWordCount" storage="d:\projects\textanalysisapp\textanalysisapp.specs\bin\debug\textanalysisapp.specs.dll" id="5d1cd8d1-90a2-f1c0-a5be-a145ba0b3b59">
+      <Description>Return empty word count</Description>
+      <Execution id="2c9116d9-263b-4fb1-8ca2-bd801e078bc6" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>Unqiue Word Count in a sentence</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="D:/Projects/TextAnalysisApp/TextAnalysisApp.Specs/bin/Debug/TextAnalysisApp.Specs.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TextAnalysisApp.Specs.Features.UnqiueWordCountInASentenceFeature, TextAnalysisApp.Specs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ReturnEmptyWordCount" />
+    </UnitTest>
+    <UnitTest name="ReturnEmptyWordCountAsSenetenceHasNoLetters" storage="d:\projects\textanalysisapp\textanalysisapp.specs\bin\debug\textanalysisapp.specs.dll" id="809bfd68-f458-0ee5-c84e-d67adb7d3c68">
+      <Description>Return empty word count as senetence has no letters</Description>
+      <Execution id="a67ad181-259e-4f44-9c97-ec8871569a47" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>Unqiue Word Count in a sentence</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="D:/Projects/TextAnalysisApp/TextAnalysisApp.Specs/bin/Debug/TextAnalysisApp.Specs.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TextAnalysisApp.Specs.Features.UnqiueWordCountInASentenceFeature, TextAnalysisApp.Specs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ReturnEmptyWordCountAsSenetenceHasNoLetters" />
+    </UnitTest>
+    <UnitTest name="ReturnUnqiueWordCountForASentenceWithNon_LetterCharacters" storage="d:\projects\textanalysisapp\textanalysisapp.specs\bin\debug\textanalysisapp.specs.dll" id="8f0ef45b-7af9-cd46-33fb-52944df53b07">
+      <Description>Return unqiue word count for a sentence with non-letter characters</Description>
+      <Execution id="9705543a-0718-4197-bf19-4445d62758ef" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>Unqiue Word Count in a sentence</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="D:/Projects/TextAnalysisApp/TextAnalysisApp.Specs/bin/Debug/TextAnalysisApp.Specs.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TextAnalysisApp.Specs.Features.UnqiueWordCountInASentenceFeature, TextAnalysisApp.Specs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ReturnUnqiueWordCountForASentenceWithNon_LetterCharacters" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="410e918b-b1cd-a04f-d92b-e6cf2be6d890" executionId="92d9bbcd-9d5e-477f-8fbc-f9eb18ced9ab" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5d1cd8d1-90a2-f1c0-a5be-a145ba0b3b59" executionId="2c9116d9-263b-4fb1-8ca2-bd801e078bc6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="712f95e0-ea66-58b5-0baa-bc5dfe280b55" executionId="9b696cfd-1389-4ae1-930e-ec6cddfedf8d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="809bfd68-f458-0ee5-c84e-d67adb7d3c68" executionId="a67ad181-259e-4f44-9c97-ec8871569a47" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8f0ef45b-7af9-cd46-33fb-52944df53b07" executionId="9705543a-0718-4197-bf19-4445d62758ef" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="92d9bbcd-9d5e-477f-8fbc-f9eb18ced9ab" testId="410e918b-b1cd-a04f-d92b-e6cf2be6d890" testName="ReturnExceptionOnNullSenetence" computerName="ASUS401PC" duration="00:00:00.0715890" startTime="2014-08-03T18:52:45.8190082+01:00" endTime="2014-08-03T18:52:46.3780401+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="92d9bbcd-9d5e-477f-8fbc-f9eb18ced9ab">
+      <Output>
+        <StdOut>Given a sentence is null
+-&gt; done: WordCountSteps.GivenSentenceIsNull() (0.0s)
+When text Analyzer is run with a null sentence
+-&gt; done: WordCountSteps.WhenTextAnalyzerIsRunWithNullSentence() (0.0s)
+Then an exception is thrown
+-&gt; done: WordCountSteps.ThenAnExceptionisThrown() (0.0s)</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2c9116d9-263b-4fb1-8ca2-bd801e078bc6" testId="5d1cd8d1-90a2-f1c0-a5be-a145ba0b3b59" testName="ReturnEmptyWordCount" computerName="ASUS401PC" duration="00:00:00.0065813" startTime="2014-08-03T18:52:46.3800403+01:00" endTime="2014-08-03T18:52:46.4990471+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2c9116d9-263b-4fb1-8ca2-bd801e078bc6">
+      <Output>
+        <StdOut>Given a empty sentence
+-&gt; done: WordCountSteps.GivenAnEmptySentence() (0.0s)
+When text Analyzer is run
+-&gt; done: WordCountSteps.WhenTextAnalyzerIsRun() (0.0s)
+Then return an empty list
+-&gt; done: WordCountSteps.ThenReturnAnEmptyListOfWordsAndCounts() (0.0s)</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9b696cfd-1389-4ae1-930e-ec6cddfedf8d" testId="712f95e0-ea66-58b5-0baa-bc5dfe280b55" testName="ReturnUnqiueWordCountForASentence" computerName="ASUS401PC" duration="00:00:00.0054972" startTime="2014-08-03T18:52:46.5030473+01:00" endTime="2014-08-03T18:52:46.5170481+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9b696cfd-1389-4ae1-930e-ec6cddfedf8d">
+      <Output>
+        <StdOut>Given a sentence
+-&gt; done: WordCountSteps.GivenASentence() (0.0s)
+When text Analyzer is run
+-&gt; done: WordCountSteps.WhenTextAnalyzerIsRun() (0.0s)
+Then return a distinct list of words in the sentence and the number of times thay have occurred
+-&gt; done: WordCountSteps.ThenReturnListOfWordsAndCounts() (0.0s)</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a67ad181-259e-4f44-9c97-ec8871569a47" testId="809bfd68-f458-0ee5-c84e-d67adb7d3c68" testName="ReturnEmptyWordCountAsSenetenceHasNoLetters" computerName="ASUS401PC" duration="00:00:00.0029529" startTime="2014-08-03T18:52:46.5210483+01:00" endTime="2014-08-03T18:52:46.5400494+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a67ad181-259e-4f44-9c97-ec8871569a47">
+      <Output>
+        <StdOut>Given a sentence only contains numbers
+-&gt; done: WordCountSteps.GivenASentenceOfNumbers() (0.0s)
+When text Analyzer is run
+-&gt; done: WordCountSteps.WhenTextAnalyzerIsRun() (0.0s)
+Then return an empty list
+-&gt; done: WordCountSteps.ThenReturnAnEmptyListOfWordsAndCounts() (0.0s)</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9705543a-0718-4197-bf19-4445d62758ef" testId="8f0ef45b-7af9-cd46-33fb-52944df53b07" testName="ReturnUnqiueWordCountForASentenceWithNon_LetterCharacters" computerName="ASUS401PC" duration="00:00:00.0010314" startTime="2014-08-03T18:52:46.5450497+01:00" endTime="2014-08-03T18:52:46.5580504+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9705543a-0718-4197-bf19-4445d62758ef">
+      <Output>
+        <StdOut>Given a sentence with non-letter characters
+-&gt; done: WordCountSteps.GivenASentenceOfWordsWithNonLetters() (0.0s)
+When text Analyzer is run
+-&gt; done: WordCountSteps.WhenTextAnalyzerIsRun() (0.0s)
+Then return a distinct list of words in the sentence and the number of times thay have occurred
+-&gt; done: WordCountSteps.ThenReturnListOfWordsAndCounts() (0.0s)</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
